@@ -13,3 +13,20 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 | Network Adapter | Internal Network |
 | osTicket URL | `http://172.16.0.101/scp/` |
 | Web Stack | Apache, MySQL, PHP (LAMP) |
+
+## Features Implemented
+
+✅ Ubuntu Server deployed as a dedicated VM on internal network
+
+✅ LAMP stack installed and configured (Apache, MySQL, PHP)
+
+✅ osTicket installed and accessible from domain-joined client
+
+✅ osTicket integrated with Active Directory for user authentication
+
+✅ Help desk agents and departments configured in osTicket
+
+✅ 10 tickets created and resolved covering common AD issues
+
+✅ Root cause and resolution documented for each ticket
+
