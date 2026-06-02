@@ -3,6 +3,8 @@
 ## Overview
 I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active Directory environment. This lab demonstrates a full IT help desk workflow, from ticket intake to resolution. Each of the 10 tickets represents a common issue encountered in enterprise AD environments, documented with root cause analysis and resolution steps. For further documentation on my AD lab, see it [here](https://github.com/Spider900/ad-windows-server-lab).
 
+![Badge](https://img.shields.io/badge/Ubuntu_Server_22.04-orange) ![Badge](https://img.shields.io/badge/osTicket_1.18-yellow) ![Badge](https://img.shields.io/badge/Active_Directory-purple) ![Badge](https://img.shields.io/badge/LAMP_Stack-green) ![Badge](https://img.shields.io/badge/VirtualBox-grey)
+
 ## Architecture
 | Component | Details |
 | --------- | ------- |
