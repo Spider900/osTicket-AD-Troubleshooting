@@ -56,4 +56,16 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 1. osTicket site is secure through https and osTicket cert is confirmed by the Domain Controller
 
+## Active Directory Integration
 
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/d016adc8-f1df-45d4-812c-981f4e2de4fe" />
+
+1. osTicket configured to authenticate against mydomain.com
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/c90d805b-b452-4133-887a-6e554ed9eeb6" />
+
+<img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/583927ab-25d9-4626-9791-dd6bf483bc81" />
+
+<img width="1918" height="1027" alt="image" src="https://github.com/user-attachments/assets/09c046a0-0575-4bf1-8c08-9fddfa35a31b" />
+
+2. Created agent accounts are automatically synced to their respective AD account
