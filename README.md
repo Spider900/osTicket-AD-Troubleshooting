@@ -1,7 +1,7 @@
 # 🎫 Home Lab: osTicket Help Desk Troubleshooting
 
 ## Overview
-I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active Directory environment. The osTicket site is served over HTTPS using an SSL certificate issued by the internal Certificate Authority on my Domain Controller — mirroring how enterprise help desk portals are secured in real environments. This lab demonstrates a full IT help desk workflow — from ticket intake to resolution — using ten real AD troubleshooting scenarios. For further documentation on my AD lab, see it [here](https://github.com/Spider900/ad-windows-server-lab).
+I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active Directory environment. The osTicket site is served over an HTTPS connection which is verified by an SSL certificate issued by the internal Certificate Authority on my Domain Controller. This lab also demonstrates a complete IT help desk workflow, from ticket intake to resolution, using ten real AD troubleshooting scenarios. For further documentation on my previous AD lab, see it [here](https://github.com/Spider900/ad-windows-server-lab).
 
 ![Badge](https://img.shields.io/badge/Ubuntu_Server_22.04-orange) ![Badge](https://img.shields.io/badge/osTicket_1.18-yellow) ![Badge](https://img.shields.io/badge/Active_Directory-purple) ![Badge](https://img.shields.io/badge/LAMP_Stack-green) ![Badge](https://img.shields.io/badge/VirtualBox-grey) ![Badge](https://img.shields.io/badge/Internal_PKI_Certified-red)
 
