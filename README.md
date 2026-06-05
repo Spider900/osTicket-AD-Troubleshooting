@@ -44,3 +44,8 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 2. Transfered SSL certificate to a cert file on my linux server
  
+## Apache HTTPS Configuration
+
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/0299206b-0ac1-4aff-9ae2-6ca8ae161b5d" />
+
+1. Apache virtual host configured to HTTPS port 443 with paths to internal SSL certificate and key
