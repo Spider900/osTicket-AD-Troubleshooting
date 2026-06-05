@@ -34,3 +34,13 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 ✅ 10 tickets created and resolved covering common AD issues
 
+## SSL Certificate
+
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/81c75c25-4cdb-4040-9ce6-4c95bac6b153" />
+
+1. SSL certificate issued by internal CA on Domain Controller for the osTicket server
+
+<img width="1918" height="1025" alt="image" src="https://github.com/user-attachments/assets/e24a463f-4fad-4254-acbd-ea471a37311f" />
+
+2. Transfered SSL certificate to a cert file on my linux server
+ 
