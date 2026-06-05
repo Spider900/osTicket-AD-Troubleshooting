@@ -49,3 +49,11 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/0299206b-0ac1-4aff-9ae2-6ca8ae161b5d" />
 
 1. Apache virtual host configured to HTTPS port 443 with paths to internal SSL certificate and key
+
+## osTicket accessible over HTTPS
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/e77d0ec4-1927-40c9-b00e-69311654e033" />
+
+1. osTicket site is secure through https and osTicket cert is confirmed by the Domain Controller
+
+
