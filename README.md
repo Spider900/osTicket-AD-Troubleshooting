@@ -34,7 +34,9 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 ✅ 10 tickets created and resolved covering common AD issues
 
-## SSL Certificate
+## Settings and Configuration
+
+### SSL Certificate
 
 <img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/81c75c25-4cdb-4040-9ce6-4c95bac6b153" />
 
@@ -44,19 +46,19 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 2. Transfered SSL certificate to a cert file on my linux server
  
-## Apache HTTPS Configuration
+### Apache HTTPS Configuration
 
 <img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/0299206b-0ac1-4aff-9ae2-6ca8ae161b5d" />
 
 1. Apache virtual host configured to HTTPS port 443 with paths to internal SSL certificate and key
 
-## osTicket accessible over HTTPS
+### osTicket accessible over HTTPS
 
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/e77d0ec4-1927-40c9-b00e-69311654e033" />
 
 1. osTicket site is secure through https and osTicket cert is confirmed by the Domain Controller
 
-## Active Directory Integration
+### Active Directory Integration
 
 <img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/d016adc8-f1df-45d4-812c-981f4e2de4fe" />
 
@@ -69,3 +71,6 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1027" alt="image" src="https://github.com/user-attachments/assets/09c046a0-0575-4bf1-8c08-9fddfa35a31b" />
 
 2. Created agent accounts are automatically synced to their respective AD account
+
+### osTicket Email Fetching
+
