@@ -96,7 +96,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/bf42c979-1e7d-431c-8196-e5990657f311" />
 
-2. Used the email "p-njoroge@mydomain.com" to send a ticket to "support@mydomain.com"
+2. Used the email "`p-njoroge@mydomain.com`" to send a ticket to "`support@mydomain.com`"
 
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/25767255-2148-47e7-bcdd-91c3f619baaf" />
 
