@@ -74,3 +74,33 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 ### osTicket Email Fetching
 
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/eee96c08-2c20-47bd-9ebb-f46f5a056c97" />
+
+1. Configured support@mydomain.com to be the default support email address for osTicket and configured the remote mailbox
+
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/3fbb6aea-f55d-433e-af4c-63083902ecaf" />
+
+2. SMTP configuration settings
+
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/77ee42fa-c344-470b-af7e-94f765e1cb86" />
+
+<img width="1916" height="1018" alt="image" src="https://github.com/user-attachments/assets/085a5a7e-e05a-4e9a-98cd-cba3673f659a" />
+
+3. Created autocron script for email fetching and enabled it in Email settings
+
+## Ticketing Functionality Test
+
+<img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/a5870519-bfa9-4b10-985b-ba2535d07494" />
+
+1. Dashboard before ticket creation
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/bf42c979-1e7d-431c-8196-e5990657f311" />
+
+2. Used the email "p-njoroge@mydomain.com" to send a ticket to "support@mydomain.com"
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/25767255-2148-47e7-bcdd-91c3f619baaf" />
+
+<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/59f2c95f-63bb-454d-9761-5409a219d873" />
+
+3. Ticket successfully generated and accessible via dashboard
+
