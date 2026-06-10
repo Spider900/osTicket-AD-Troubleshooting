@@ -76,7 +76,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/eee96c08-2c20-47bd-9ebb-f46f5a056c97" />
 
-1. Configured support@mydomain.com to be the default support email address for osTicket and configured the remote mailbox
+1. Configured `support@mydomain.com` to be the default support email address for osTicket and configured the remote mailbox
 
 <img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/3fbb6aea-f55d-433e-af4c-63083902ecaf" />
 
