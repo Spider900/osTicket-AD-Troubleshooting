@@ -219,3 +219,27 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1017" alt="T7-6" src="https://github.com/user-attachments/assets/e72a6d53-d570-4bbc-847d-9311d670a44e" />
 
 4. User "ablackwater" now has the permissions to access the folder
+
+## Ticket 8 - Client Machine Failure
+
+<img width="1918" height="1020" alt="T8-1" src="https://github.com/user-attachments/assets/be3e43fd-59cb-47df-8d4e-1e1bb84b9343" />
+
+<img width="1918" height="1020" alt="T8-2" src="https://github.com/user-attachments/assets/7c8d1d96-df3c-44a4-b205-a7123d95ab48" />
+
+1. User "ablaker" has reported their client machine is no longer connected to its assigned domain
+
+<img width="1918" height="1017" alt="T8-3" src="https://github.com/user-attachments/assets/dfc037bc-6f5e-4487-8cfd-380ff1622843" />
+
+2. AD Users and Computers reveals the client machine was accidentally removed
+
+<img width="1918" height="1018" alt="T8-4" src="https://github.com/user-attachments/assets/59e4da7f-5abf-4687-8168-fa5073138961" />
+
+3. Entering "mydomain.com" as the domain option in the client machine's system settings should fix the issue
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/093f077a-772d-435b-87ca-85fef8b10992" />
+
+4. The client machine has been restored 
+
+## Ticket 9 - User Mailbox
+
+1. 
