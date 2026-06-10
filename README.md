@@ -122,7 +122,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 3. Account is no longer locked and user "aabrev" can log on normally
 
-## Ticket 2 - Password Reset
+### Ticket 2 - Password Reset
 
 <img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/4a7d8f6d-ec7a-4f75-949e-e6ed3fcedaca" />
 
@@ -142,7 +142,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 3. Successful password reset
 
-## Ticket 3 - Group Policy Not Applying
+### Ticket 3 - Group Policy Not Applying
 
 <img width="1918" height="1020" alt="T3-1" src="https://github.com/user-attachments/assets/0e13c14b-721e-4f93-af9e-0462e751cb06" />
 
@@ -162,7 +162,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 4. Accounts now use default Windows 11 lockout settings
 
-## Ticket 4 - User Cannot Log Into Domain
+### Ticket 4 - User Cannot Log Into Domain
 
 <img width="1918" height="1021" alt="T4-1" src="https://github.com/user-attachments/assets/fb7bee58-cab2-4bd3-a279-89adcc71e594" />
 
@@ -174,7 +174,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 2. Re-enabling the domain controlled client machine will fix the error 
 
-## Ticket 5 - Account Expiration
+### Ticket 5 - Account Expiration
 
 <img width="1918" height="1018" alt="T5-1" src="https://github.com/user-attachments/assets/4104befb-7c1a-4909-a2c0-4d27ad6f7125" />
 
@@ -186,7 +186,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 2. Navigating to AD Users and Computers and setting account expiration to never or a future date will fix the issue
 
-## Ticket 6 - Account Disabled
+### Ticket 6 - Account Disabled
 
 <img width="1918" height="1021" alt="T6-1" src="https://github.com/user-attachments/assets/e763716c-4782-4be2-91bc-e1d08b12703d" />
 
@@ -198,7 +198,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 2. Enabling the account in AD Users and Computers will fix the issue
 
-## Ticket 7 - Folder Permissions
+### Ticket 7 - Folder Permissions
 
 <img width="1918" height="1021" alt="T7-1" src="https://github.com/user-attachments/assets/b6c555b9-11c3-4884-87c8-1ef6c80dfe3e" />
 
@@ -220,7 +220,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 4. User "ablackwater" now has the permissions to access the folder
 
-## Ticket 8 - Client Machine Failure
+### Ticket 8 - Client Machine Failure
 
 <img width="1918" height="1020" alt="T8-1" src="https://github.com/user-attachments/assets/be3e43fd-59cb-47df-8d4e-1e1bb84b9343" />
 
@@ -240,7 +240,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 4. The client machine has been restored 
 
-## Ticket 9 - User Mailbox
+### Ticket 9 - User Mailbox
 
 <img width="1918" height="1017" alt="T9-1" src="https://github.com/user-attachments/assets/088714ca-9ea0-445d-96bc-6149dd61404b" />
 
@@ -254,7 +254,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 2. "abonavita" mailbox successfully created using an Exchange Management Shell command
 
-## Ticket 10 - Time Restrictions
+### Ticket 10 - Time Restrictions
 
 <img width="1918" height="1020" alt="T10-1" src="https://github.com/user-attachments/assets/c52a61ad-57f0-4726-a86e-c92b39ab6550" />
 
@@ -267,3 +267,15 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/3a773342-a1d3-4869-9d8a-dfa63ae1c160" />
 
 2. Changing the account's logon restrictions to the correct 9:00 AM - 5:00 PM time period will fix the issue
+
+## What I learned
+
+**SSL on Linux with Apache** — Learned how to make Apache serve a site over HTTPS on Ubuntu, setting up a virtual host on port 443 and pointing it to a private key certificate pair.
+
+**Cross-platform certificate deployment** — I learned how to export a certificate from a Windows CA and import it into a Linux environment. This deepened my knowledge in bridging the Windows and Linux sides of an enterprise network.
+
+**Email Fetching** — Configured autocron script and email settings on osTicket to automatically fetch user emails and transform them into support tickets.
+
+**osTicket on Linux** — How to deploy and set up an active directory on a LAMP stack. This included database setup and web server configuration.
+
+**AD troubleshooting methodology** — How to approach AD issues in a systematic fashion: reading user tickets, diagnosing root cause, and implementing changes in a timely manner.
