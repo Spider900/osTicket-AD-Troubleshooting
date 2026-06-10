@@ -172,4 +172,16 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/db191d6b-403e-4b92-88aa-0fa8dafd4ff0" />
 
-2. Re-enabling the domain controlled client machine and running "gpupdate /force" will fix the error 
+2. Re-enabling the domain controlled client machine will fix the error 
+
+## Ticket 5 - Account Expiration
+
+<img width="1918" height="1018" alt="T5-1" src="https://github.com/user-attachments/assets/4104befb-7c1a-4909-a2c0-4d27ad6f7125" />
+
+<img width="1918" height="1020" alt="T5-2" src="https://github.com/user-attachments/assets/5023cd92-89ca-4e3c-aec0-359337c488f6" />
+
+1. Account "Abilderback" has expired and needs to be reactivated
+
+<img width="1919" height="1021" alt="T5-3" src="https://github.com/user-attachments/assets/fd1131bb-1a7c-49b2-abd6-5b5ad5dc898e" />
+
+2. Navigating to AD Users and Computers and setting account expiration to never or a future date will fix the issue
