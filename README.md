@@ -270,12 +270,12 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 ## What I learned
 
-**SSL on Linux with Apache** — Learned how to make Apache serve a site over HTTPS on Ubuntu, setting up a virtual host on port 443 and pointing it to a private key certificate pair.
+1. **SSL on Linux with Apache** — Learned how to make Apache serve a site over HTTPS on Ubuntu, setting up a virtual host on port 443 and pointing it to a private key certificate pair.
 
-**Cross-platform certificate deployment** — I learned how to export a certificate from a Windows CA and import it into a Linux environment. This deepened my knowledge in bridging the Windows and Linux sides of an enterprise network.
+2. **Cross-platform certificate deployment** — I learned how to export a certificate from a Windows CA and import it into a Linux environment. This deepened my knowledge in bridging the Windows and Linux sides of an enterprise network.
 
-**Email Fetching** — Configured autocron script and email settings on osTicket to automatically fetch user emails and transform them into support tickets.
+3. **Email Fetching** — Configured autocron script and email settings on osTicket to automatically fetch user emails and transform them into support tickets.
 
-**osTicket on Linux** — How to deploy and set up a help desk application on a LAMP stack. This included database setup and web server configuration.
+4. **osTicket on Linux** — How to deploy and set up a help desk application on a LAMP stack. This included database setup and web server configuration.
 
-**AD troubleshooting methodology** — How to approach AD issues in a systematic fashion: reading user tickets, diagnosing root cause, and implementing changes in a timely manner.
+5. **AD troubleshooting methodology** — How to approach AD issues in a systematic fashion: reading user tickets, diagnosing root cause, and implementing changes in a timely manner.
