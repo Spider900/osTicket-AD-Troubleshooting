@@ -121,3 +121,23 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/ef541fe1-6e40-4cfb-974c-e8673f7208de" />
 
 3. Account is no longer locked and user "aabrev" can log on normally
+
+## Ticket 2 - Password Reset
+
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/4a7d8f6d-ec7a-4f75-949e-e6ed3fcedaca" />
+
+<img width="1918" height="1027" alt="image" src="https://github.com/user-attachments/assets/cfb799a5-cb56-4ec2-8a1a-b4f6fb5fae94" />
+
+1. User "aacre" needs their password to be reset
+
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/109f3e84-cd7b-4dff-a065-62fcc6c4457c" />
+
+2. "aacre" will need to enter the temporary password "Password#1" in order to create their new password
+
+<img width="1918" height="1018" alt="T2-4" src="https://github.com/user-attachments/assets/b11ec793-9245-4df8-806b-bd63f4789d30" />
+
+<img width="1918" height="1017" alt="T2-5" src="https://github.com/user-attachments/assets/dc8b30b1-d9b2-4f58-8246-506ab68bf600" />
+
+<img width="1918" height="1018" alt="T2-6" src="https://github.com/user-attachments/assets/3ef807e1-6b5a-4a69-93cd-74165da0e4eb" />
+
+3. Successful password reset
