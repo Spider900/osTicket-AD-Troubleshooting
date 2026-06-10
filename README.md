@@ -92,15 +92,32 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/a5870519-bfa9-4b10-985b-ba2535d07494" />
 
-1. Dashboard before ticket creation
+1. Home page before ticket creation
 
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/bf42c979-1e7d-431c-8196-e5990657f311" />
 
-2. Used the email "`p-njoroge@mydomain.com`" to send a ticket to "`support@mydomain.com`"
+2. Used the email "`p-njoroge@mydomain.com`" to send a ticket to "`support@mydomain.com`". For more information on how I setup my exchange server, see [here](https://github.com/Spider900/exchange-server-lab)
 
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/25767255-2148-47e7-bcdd-91c3f619baaf" />
 
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/59f2c95f-63bb-454d-9761-5409a219d873" />
 
-3. Ticket successfully generated and accessible via dashboard
+3. Ticket successfully generated
 
+## AD Troubleshooting Tickets
+
+### Ticket 1 - Account Lockout
+
+<img width="1918" height="1021" alt="T1-1" src="https://github.com/user-attachments/assets/0b9f31c6-5533-4117-babc-bd448d92ba32" />
+
+<img width="1918" height="1023" alt="T1-2" src="https://github.com/user-attachments/assets/69d297de-f840-45e5-8f20-e78e5c9810a9" />
+
+1. User "aabrev" is locked out of their account
+
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/58b1bc53-02ba-418f-a315-b7631b8f4755" />
+
+2. Active Directory Users and Computers reveals the account is locked due to too many login attempts. Selecting "Unlock Account" checkbox and saving the settings will fix the issue.
+
+<img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/ef541fe1-6e40-4cfb-974c-e8673f7208de" />
+
+3. Account is no longer locked and user "aabrev" can log on normally
