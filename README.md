@@ -185,3 +185,37 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1919" height="1021" alt="T5-3" src="https://github.com/user-attachments/assets/fd1131bb-1a7c-49b2-abd6-5b5ad5dc898e" />
 
 2. Navigating to AD Users and Computers and setting account expiration to never or a future date will fix the issue
+
+## Ticket 6 - Account Disabled
+
+<img width="1918" height="1021" alt="T6-1" src="https://github.com/user-attachments/assets/e763716c-4782-4be2-91bc-e1d08b12703d" />
+
+<img width="1918" height="1017" alt="T6-2" src="https://github.com/user-attachments/assets/0c25ebe0-3b38-4e95-becf-db1e262f2e58" />
+
+1. User "abirk" reports their account as being disabled
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/81c90db7-93c2-4ee5-876e-13235a69e0fc" />
+
+2. Enabling the account in AD Users and Computers will fix the issue
+
+## Ticket 7 - Folder Permissions
+
+<img width="1918" height="1021" alt="T7-1" src="https://github.com/user-attachments/assets/b6c555b9-11c3-4884-87c8-1ef6c80dfe3e" />
+
+<img width="1918" height="1018" alt="T7-2" src="https://github.com/user-attachments/assets/f157be2a-0da8-45e8-902b-c05a0dd33140" />
+
+1. User "ablackwater" unfortunately cannot add cute pictures of their dog to the shared puppies folder
+
+<img width="1918" height="1017" alt="T7-3" src="https://github.com/user-attachments/assets/c143a17b-5945-4ce7-a7ab-d9996a3cdd3b" />
+
+2. The shared permissions on the folder only grant read access to users which is causing the problem
+
+<img width="1918" height="1018" alt="T7-4" src="https://github.com/user-attachments/assets/7fa6f6bb-bc92-4a50-b713-d5342925a94b" />
+
+<img width="1918" height="1020" alt="T7-5" src="https://github.com/user-attachments/assets/99ec08c8-b2a7-45e1-a211-a8a5d9c87d06" />
+
+3. Enabling Read/Write will fix the issue
+
+<img width="1918" height="1017" alt="T7-6" src="https://github.com/user-attachments/assets/e72a6d53-d570-4bbc-847d-9311d670a44e" />
+
+4. User "ablackwater" now has the permissions to access the folder
