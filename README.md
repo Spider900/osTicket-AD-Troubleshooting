@@ -140,7 +140,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1018" alt="T2-6" src="https://github.com/user-attachments/assets/3ef807e1-6b5a-4a69-93cd-74165da0e4eb" />
 
-3. Successful password reset
+3. Successful password reset, solving the "KDC_ERR_PREAUTH_FAILED" error
 
 ### Ticket 3 - Group Policy Not Applying
 
@@ -276,6 +276,6 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 **Email Fetching** — Configured autocron script and email settings on osTicket to automatically fetch user emails and transform them into support tickets.
 
-**osTicket on Linux** — How to deploy and set up an active directory on a LAMP stack. This included database setup and web server configuration.
+**osTicket on Linux** — How to deploy and set up a help desk application on a LAMP stack. This included database setup and web server configuration.
 
 **AD troubleshooting methodology** — How to approach AD issues in a systematic fashion: reading user tickets, diagnosing root cause, and implementing changes in a timely manner.
