@@ -88,7 +88,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 3. Created autocron script for email fetching and enabled it in Email settings
 
-## Ticketing Functionality Test
+## End-to-End Email to Ticket Workflow
 
 <img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/a5870519-bfa9-4b10-985b-ba2535d07494" />
 
@@ -116,7 +116,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/58b1bc53-02ba-418f-a315-b7631b8f4755" />
 
-2. Active Directory Users and Computers reveals the account is locked due to too many login attempts. Selecting "Unlock Account" checkbox and saving the settings will fix the issue.
+2. Active Directory Users and Computers reveals the account is locked due to too many login attempts, resulting in a "KDC_ERR_CLIENT_REVOKED" error. Selecting "Unlock Account" checkbox and saving the settings will fix the issue.
 
 <img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/ef541fe1-6e40-4cfb-974c-e8673f7208de" />
 
@@ -128,7 +128,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1027" alt="image" src="https://github.com/user-attachments/assets/cfb799a5-cb56-4ec2-8a1a-b4f6fb5fae94" />
 
-1. User "aacre" needs their password to be reset
+1. User "aacre" needs their password to be reset 
 
 <img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/109f3e84-cd7b-4dff-a065-62fcc6c4457c" />
 
@@ -152,7 +152,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1017" alt="T3-3" src="https://github.com/user-attachments/assets/193d0d30-f00c-407b-ab4b-e1a5e2500fb1" />
 
-2. "gpresult /r" reveals over 40 minutes have passed since the last group policy update
+2. "gpresult /r" shows a stale policy since GPO refresh interval (~90 min) has not yet elapsed
 
 <img width="1918" height="1017" alt="T3-4" src="https://github.com/user-attachments/assets/ff31b71d-a897-4759-b549-4d5ab06b7bf7" />
 
@@ -168,7 +168,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1017" alt="T4-2" src="https://github.com/user-attachments/assets/21899ece-d812-42e4-b400-71e6c7ea1fcc" />
 
-1. User "abargo" is has an issue between the trust relationship of their machine and the DC
+1. User "abargo" is encountering a NETLOGON trust relationship failure where the trust between the machine and the DC is compromised.
 
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/db191d6b-403e-4b92-88aa-0fa8dafd4ff0" />
 
@@ -180,7 +180,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1020" alt="T5-2" src="https://github.com/user-attachments/assets/5023cd92-89ca-4e3c-aec0-359337c488f6" />
 
-1. Account "Abilderback" has expired and needs to be reactivated
+1. Account "Abilderback" has encountered a "KDC_ERR_CLIENT_REVOKED" error where the account object's accountExpires attribute has passed
 
 <img width="1919" height="1021" alt="T5-3" src="https://github.com/user-attachments/assets/fd1131bb-1a7c-49b2-abd6-5b5ad5dc898e" />
 
@@ -192,7 +192,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1017" alt="T6-2" src="https://github.com/user-attachments/assets/0c25ebe0-3b38-4e95-becf-db1e262f2e58" />
 
-1. User "abirk" reports their account as being disabled
+1. User "abirk" is encountering a "KDC_ERR_CLIENT_REVOKED" error where the userAccountControl flag has the ACCOUNTDISABLE bit set
 
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/81c90db7-93c2-4ee5-876e-13235a69e0fc" />
 
@@ -204,7 +204,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1018" alt="T7-2" src="https://github.com/user-attachments/assets/f157be2a-0da8-45e8-902b-c05a0dd33140" />
 
-1. User "ablackwater" unfortunately cannot add cute pictures of their dog to the shared puppies folder
+1. User "ablackwater" unfortunately cannot add cute pictures of their dog to the shared puppies folder as a result of the "ERROR_ACCESS_DENIED (0x00000005)" error, only having permission to read from the folder
 
 <img width="1918" height="1017" alt="T7-3" src="https://github.com/user-attachments/assets/c143a17b-5945-4ce7-a7ab-d9996a3cdd3b" />
 
@@ -226,7 +226,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1020" alt="T8-2" src="https://github.com/user-attachments/assets/7c8d1d96-df3c-44a4-b205-a7123d95ab48" />
 
-1. User "ablaker" has reported their client machine is no longer connected to its assigned domain
+1. User "ablaker" has encountered a "NETLOGON" error resulting in their client machine being unable to connect to its target domain
 
 <img width="1918" height="1017" alt="T8-3" src="https://github.com/user-attachments/assets/dfc037bc-6f5e-4487-8cfd-380ff1622843" />
 
@@ -252,7 +252,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1020" alt="T9-4" src="https://github.com/user-attachments/assets/81d20747-2fa3-4a1a-b7b5-5bfab72e25dc" />
 
-2. "abonavita" mailbox successfully created using an Exchange Management Shell command
+2. "abonavita" mailbox successfully created using "Enable-Mailbox" command on EMS, solving the error of "MapiExceptionNotFound"
 
 ### Ticket 10 - Time Restrictions
 
@@ -260,7 +260,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1018" alt="T10-2" src="https://github.com/user-attachments/assets/4de202dc-8c72-4514-a3d3-74d992214120" />
 
-1. User "abreedlove" has reported invalid time restrictions registered on his account
+1. User "abreedlove" has reported invalid time restrictions registered on his account. This is a result of the "KDC_ERR_CLIENT_REVOKED" error from the DC enforcing the logonHours attribute on the account
 
 <img width="1918" height="1018" alt="T10-3" src="https://github.com/user-attachments/assets/e5b95530-975c-4a46-bd01-db9537d66e26" />
 
