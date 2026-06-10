@@ -161,3 +161,15 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/2c7003c0-5034-48c1-bb49-4d98c1beeee0" />
 
 4. Accounts now use default Windows 11 lockout settings
+
+## Ticket 4 - User Cannot Log Into Domain
+
+<img width="1918" height="1021" alt="T4-1" src="https://github.com/user-attachments/assets/fb7bee58-cab2-4bd3-a279-89adcc71e594" />
+
+<img width="1918" height="1017" alt="T4-2" src="https://github.com/user-attachments/assets/21899ece-d812-42e4-b400-71e6c7ea1fcc" />
+
+1. User "abargo" is has an issue between the trust relationship of their machine and the DC
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/db191d6b-403e-4b92-88aa-0fa8dafd4ff0" />
+
+2. Re-enabling the domain controlled client machine and running "gpupdate /force" will fix the error 
