@@ -253,3 +253,17 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1020" alt="T9-4" src="https://github.com/user-attachments/assets/81d20747-2fa3-4a1a-b7b5-5bfab72e25dc" />
 
 2. "abonavita" mailbox successfully created using an Exchange Management Shell command
+
+## Ticket 10 - Time Restrictions
+
+<img width="1918" height="1020" alt="T10-1" src="https://github.com/user-attachments/assets/c52a61ad-57f0-4726-a86e-c92b39ab6550" />
+
+<img width="1918" height="1018" alt="T10-2" src="https://github.com/user-attachments/assets/4de202dc-8c72-4514-a3d3-74d992214120" />
+
+1. User "abreedlove" has reported invalid time restrictions registered on his account
+
+<img width="1918" height="1018" alt="T10-3" src="https://github.com/user-attachments/assets/e5b95530-975c-4a46-bd01-db9537d66e26" />
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/3a773342-a1d3-4869-9d8a-dfa63ae1c160" />
+
+2. Changing the account's logon restrictions to the correct 9:00 AM - 5:00 PM time period will fix the issue
