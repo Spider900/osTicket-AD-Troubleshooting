@@ -242,4 +242,14 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 ## Ticket 9 - User Mailbox
 
-1. 
+<img width="1918" height="1017" alt="T9-1" src="https://github.com/user-attachments/assets/088714ca-9ea0-445d-96bc-6149dd61404b" />
+
+<img width="1918" height="1018" alt="T9-2" src="https://github.com/user-attachments/assets/cdccb2c5-e648-4a1e-b08c-f5ad2d001e1e" />
+
+1. Administrator "p-njoroge" wants a new mailbox to be created for user "abonavita"
+
+<img width="1918" height="1018" alt="T9-3" src="https://github.com/user-attachments/assets/4cc6a7aa-8f90-4ad8-8537-3cd76c4e9772" />
+
+<img width="1918" height="1020" alt="T9-4" src="https://github.com/user-attachments/assets/81d20747-2fa3-4a1a-b7b5-5bfab72e25dc" />
+
+2. "abonavita" mailbox successfully created using an Exchange Management Shell command
