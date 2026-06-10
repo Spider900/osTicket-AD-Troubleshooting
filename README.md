@@ -141,3 +141,23 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 <img width="1918" height="1018" alt="T2-6" src="https://github.com/user-attachments/assets/3ef807e1-6b5a-4a69-93cd-74165da0e4eb" />
 
 3. Successful password reset
+
+## Ticket 3 - Group Policy Not Applying
+
+<img width="1918" height="1020" alt="T3-1" src="https://github.com/user-attachments/assets/0e13c14b-721e-4f93-af9e-0462e751cb06" />
+
+<img width="1918" height="1018" alt="T3-2" src="https://github.com/user-attachments/assets/e4bd9157-9fa5-4c3a-a78c-00a713d639c5" />
+
+1. Admin "p-njoroge" has an issue with the password changes they implemented applying
+
+<img width="1918" height="1017" alt="T3-3" src="https://github.com/user-attachments/assets/193d0d30-f00c-407b-ab4b-e1a5e2500fb1" />
+
+2. "gpresult /r" reveals over 40 minutes have passed since the last group policy update
+
+<img width="1918" height="1017" alt="T3-4" src="https://github.com/user-attachments/assets/ff31b71d-a897-4759-b549-4d5ab06b7bf7" />
+
+3. Running "gpupdate /force" will push admin's lockout changes
+
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/2c7003c0-5034-48c1-bb49-4d98c1beeee0" />
+
+4. Accounts now use default Windows 11 lockout settings
