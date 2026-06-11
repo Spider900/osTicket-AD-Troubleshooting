@@ -30,7 +30,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 ✅ Apache configured to serve osTicket over HTTPS
 
-✅ Help desk agents and departments configured in osTicket
+✅ Help desk agents configured in osTicket
 
 ✅ 10 tickets created and resolved covering common AD issues
 
@@ -264,7 +264,7 @@ I deployed osTicket on a Ubuntu Server VM and connected it to my existing Active
 
 <img width="1918" height="1018" alt="T10-3" src="https://github.com/user-attachments/assets/e5b95530-975c-4a46-bd01-db9537d66e26" />
 
-<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/3a773342-a1d3-4869-9d8a-dfa63ae1c160" />
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/0ec468b3-fdb4-4115-a36e-5d69df5f432f" />
 
 2. Changing the account's logon restrictions to the correct 9:00 AM - 5:00 PM time period will fix the issue
 
